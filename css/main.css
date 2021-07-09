@@ -341,7 +341,7 @@ inline-size: -webkit-fill-available;
 .page-nav {
   bottom: 40px;
   left: 0;
-  position: absolute;
+  position: initial;
   right: 0;
 }
 .page-nav span {

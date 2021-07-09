@@ -1,0 +1,34 @@
+1st command 
+ssh-keygen -t rsa -b 4096 -C "hridoycseboy@gmail.com"
+
+---> ENTER 3 time
+2nd command
+eval $(ssh-agent -s)
+
+3nd command
+ssh-add ~/.ssh/id_rsa
+
+4nd command
+clip < ~/.ssh/id_rsa.pub
+
+---> get github setting section SSH keys/ADD new 
+{create Title and paste key in and add SSH Key 
+
+5nd command
+git init 
+
+git add .
+
+git status
+
+git commit -m "commit Name"
+
+git remote add origin {git path like git@github.com:ihridoydas/hridoy.git}
+
+git push origin master
+
+
+//if show error (rejected)
+git push --force origin master
+or
+git push -f origin master

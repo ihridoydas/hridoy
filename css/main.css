@@ -564,6 +564,7 @@ inline-size: -webkit-fill-available;
   height: -webkit-calc(100vh - 4px);
   height: -moz-calc(100vh - 4px);
   height: calc(100vh - 4px);
+  mix-blend-mode: screen;
 }
 
 /*------------------------------------------------

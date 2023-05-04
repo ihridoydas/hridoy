@@ -58,24 +58,26 @@
                     <!-- .close -->
                     <a href="./" class="page-close"><i class="tf-ion-close"></i></a>
                     <!-- /.close -->
-
                     <div class="container">
-                        <div class="row">
-                            <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
-                                <div class="page-title text-center">
-                                    <h2>My <span class="primary">history</span> <span class="title-bg">Resume</span></h2>
-                                    <p>We’re on this planet for too short a time. And at the end of the day, <br>what’s more important? Knowing that a few meaningless figures balanced — or<br> knowing that you were the person you wanted to be?<h4>-Sophie Kinsella</h4>
+                        <div class="container-fluid px-0">
+                            <div class="row mx-0">
+                                <div class="flex-grow-1 map-responsive">
+                                    <iframe id="redirect" src="https://docs.google.com/forms/d/e/1FAIpQLSdJrNkjSJRRtt7JAY-2tQRK-yboVfEFvpRyueNsFapD4u2oJw/viewform?embedded=true" width="100%" height="1040" frameborder="0" style="border:0" allowfullscreen=""  target="_parent" >Loading…</iframe>
+                                    <script type="text/JavaScript">
+                                        var page = 0;       
+                                        $('#redirect').load(function() {
+                                            page++;
+                                            if ( page > 1 ) {  // Replace with Number of Pages in Survey
+                                                document.location = "https://ihridoydas.github.io/hridoy/resume.html";  //  Replace with the Page you want to send them to
+                                            }
+                                        });
+                                    </script>
                                 </div>
                             </div>
-                        </div> <!-- /.row -->
-
-                        <div class="row">
-                            <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
-                                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdJrNkjSJRRtt7JAY-2tQRK-yboVfEFvpRyueNsFapD4u2oJw/viewform?embedded=true" width="640" height="773" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-                            </div>
-                 
-                        </div> <!-- /.row -->
+                        </div>
+                        
                     </div> <!-- /.container -->
+                   
 
                    
 
@@ -98,6 +100,7 @@
         <!-- ================================
         JavaScript Libraries
         ================================= -->
+
         <script src="js/vendor/jquery-2.2.4.min.js"></script>
         <script src="js/vendor/bootstrap.min.js"></script>
         <script src="js/jquery.easing.min.js"></script>

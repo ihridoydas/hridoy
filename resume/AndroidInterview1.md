@@ -233,10 +233,10 @@
  - Jetpack compose blogs with Github examples: Jetpack Composers
 
 ## Testing 🐛
- - In Unit testing, what is @Before & @Beforeclass annotation used for — [Check here]()
- - Why should we use a Mockito lib?
- - Explain Unit & Instrumentation tests
- - Espresso Testing Library: Espresso UI Testing for Intents
+ - In Unit testing, what is @Before & @Beforeclass annotation used for — [Check here](https://www.baeldung.com/junit-before-beforeclass-beforeeach-beforeall)
+ - Why should we use a [Mockito](https://blog.mindorks.com/using-mockito-in-android-unit-testing-as-a-pro) lib?
+ - Explain [Unit](https://developer.android.com/training/testing/local-tests) & [Instrumentation](https://developer.android.com/training/testing/instrumented-tests) tests
+ - Espresso Testing Library: [Espresso UI Testing for Intents](https://medium.com/@mansikothari115/espresso-ui-testing-for-intents-in-android-a81660e8e93)
 
 ## Data Structure
  - The time complexity of Hash Table — O(1)
@@ -272,6 +272,13 @@ https://blog.mindorks.com/kotlin-android-interview-questions
 
 
 ------
+
+## Kotlin Online Quiz ❔
+[https://kotlinquiz.com/](https://kotlinquiz.com/)
+[https://developer.android.com/s/results/?q=quiz](https://developer.android.com/s/results/?q=quiz)
+
+## Codelabs
+[https://developer.android.com/courses/](https://developer.android.com/courses/)
 
 ## Contributing Guidelines
 What interesting questions you had faced while giving interview for Android Engineer role (any level)? Let's open a PR.

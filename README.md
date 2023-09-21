@@ -2,4 +2,4 @@
 ```
 https://ihridoydas.github.io/hridoy/
 ```
-Personal HomePage.
+Personal WebPage.

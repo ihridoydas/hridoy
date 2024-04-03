@@ -1,0 +1,664 @@
+
+<!doctype html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="theme-color" content="#4F7DC9">
+  <meta charset="UTF-8">
+  <title>Hridoy Chandra Das ポートフォリオ</title>
+  <script src="../../bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+  <link rel="import" href="../../bower_components/google-codelab-elements/google-codelab-elements.html">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Code+Pro:400|Roboto:400,300,400italic,500,700|Roboto+Mono">
+  <style is="custom-style">
+    body {
+      font-family: "Roboto",sans-serif;
+      background: var(--google-codelab-background, #F8F9FA);
+    }
+        .card {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 5px;
+            margin-top: 20px;
+            width: 100px; /* Adjust card width as needed */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .cardText {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+            margin: 0;
+            margin-top: 5px;
+            padding: 10px;
+            width: auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .card img {
+            width: 60px; /* Adjust icon size as needed */
+            height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .card h3 {
+            font-size: 16px;
+            margin: 0;
+            text-align: center;
+        }
+        .category-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .section-page {
+    padding: 20px;
+}
+
+.card-education {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.table-education {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-education th,
+.table-education td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.table-education th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.table-education td {
+    text-align: left;
+}
+
+.table-education strong {
+    font-weight: bold;
+}
+
+.table-education p {
+    margin: 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  th, td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+
+  .thank-you {
+    font-size: 36px; /* Set font size */
+    font-weight: bold; /* Set font weight */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow */
+    padding: 20px; /* Add padding */
+    background-color: #fff; /* Set background color */
+    border-radius: 10px; /* Add border radius */
+  }
+  </style>
+  
+</head>
+<body unresolved class="fullbleed">
+
+  <google-codelab title="Presentation of Hridoy Chandra Das" id="codelab"
+                  environment="web"
+                  feedback-link="">
+    
+      <google-codelab-step label="イントロダクション" duration="0">
+        <p>※ はじめまして、<b>Hridoy Chandra Das(リド)です。</b><a href="https://ihridoydas.github.io/hridoy/" target="_blank">Webpage</a>を<a href="https://www.linkedin.com/in/ihridoydas/" target="_blank">@ihridoydas</a> <br/>3年のモバイルアプリエンジニア経験。</p>
+<h2>自己紹介</h2>
+<p>私は<b>ダスリドチャンダラ</b>と申します、<b>バングラデシュ</b>の出身です、<br/><b>2018年</b>に日本の文化と技術を学ぶために日本へ参りました。その後、<b>日本語学校で2年間</b>、そして<b>IT専門学校で2年間</b>、コンピューター情報科学とビジネス管理を学びました。<br/>
+IT業界での実務経験もあります。これまでの経験を活かして、新しい職場での貢献を心待ちにしています。プログラミング言語やデータベースの知識を身につけ、チームでの協力やプロジェクト管理の経験も豊富です。<br/>
+趣味は<b>クリケットをする</b>ことと<b>技術の記事</b>を書くことです。クリケットは私の情熱であり、技術の記事を書くことは私の創造性を表現する手段です。<br/>新しい環境での成長と貢献を目指しています。よろしくおねがいいたします。</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="教育: " duration="1">
+        <section class="section-page">
+          <div class="card-education">
+              <table class="table-education">
+                  <thead>
+                      <tr>
+                          <th>COURSE</th>
+                          <th>PERFORMANCE</th>
+                          <th>YEAR</th>
+                      </tr>
+                  </thead>
+                  <tr>
+                      <td>
+                          <strong>ITスペシャリストとビジネスマネジメント(2022年) </strong> <br/>日本国際工科専門学校卒業
+                      </td>
+                      <td>
+                          <p>(A) CGPA</p>
+                      </td>
+                      <td>
+                          <p>2022</p>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>
+                          <strong>成田日本語学校(2020年) </strong> 
+                      </td>
+                      <td>
+                          <p>(A)</p>
+                      </td>
+                      <td>
+                          <p>2020</p>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>
+                          <strong>コンピューターサイエンスとエンジニアリングテクノロジーのディプロマ (2018)</strong> <br/>CCN Polytechnic Institute. (4年制専門学校)、バングラデシュ
+                      </td>
+                      <td>
+                          <p>(A-) CGPA</p>
+                      </td>
+                      <td>
+                          <p>2018</p>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>
+                          <strong>Secondary School Certificate (Cumilla Board)</strong> <br/>Barkota School and College , Cumilla,Bangladesh
+                      </td>
+                      <td>
+                          <p>(A) GPA</p>
+                      </td>
+                      <td>
+                          <p>2013</p>
+                      </td>
+                  </tr>
+              </table>
+          </div>
+      </section>
+      
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="経験とスキルの概要: " duration="2" style="box-shadow: 1px 1px 16px #ccc;
+      background: #fff;
+      max-width: 1011px;
+      font-size: 14px;
+      margin: 0 auto;
+      margin-bottom: 32px;">
+        <p>Androidアプリ開発の経験が3年あり、ネイティブAndroidおよびIOS、<br/>
+          Kotlin Multiplatform、クロスプラットフォームの機能を活用した開発を経験</p>
+<h2>業務経歴</h2>
+<section class="section-page">
+  <div class="card-education">
+      <table class="table-education">
+          <thead>
+              <tr>
+                  <th>業務内容</th>
+                  <th>言語/OS/環境</th>
+                  <th>期間</th>
+              </tr>
+          </thead>
+          <tr>
+              <td>
+                  <p>【Android,iOSアプリ（コグニフォトベース　事故車修理費見積システムアプリ（拡張現実環境でのファイル共有・通信サービスなど））開発】
+                    ・ 画面遷移からUI/UX改善までシステム設計、製作、バグ改修、
+                    全体的なアーキテクチャを改善し、メンテナンス作業、 Android および iOS のテスト自動化、シェル スクリプト、プロジェクトをアップグレードを担当
+                    </p>
+              </td>
+              <td>
+                  <p>【言語】
+                    　Kotlin、SwiftUI
+                    【フレームワークとライブラリ】
+                    Jetpack Compose, Hilt, Room,　Retrofit, ARCore, Datastore, zxing(QR), FCMなど
+                    【OS】
+                    　Mac
+                    【環境】
+                    　AndroidStudio, X-code</p>
+              </td>
+              <td>
+                <p><b>2022年11〜</b></p>
+            </td>
+          </tr>
+          <tr>
+              <td>
+                  <p>【Multi-Platformアプリ（勤怠管理アプリ）開発・運用】
+                    ・Flutter を使用で勤怠管理のすべての機能できるか調査と実装を担当</p>
+              </td>
+              <td>
+                  <p>【言語】
+                    　Dart (Flutter)
+                    【OS】
+                    　Mac
+                    【環境】
+                    　AndroidStudio, VS-code, X-code</p>
+              </td>
+              <td>
+                <p>2022年9月〜2022年11月</p>
+            </td>
+          </tr>
+          <tr>
+              <td>
+                  <p>【Webアプリ（Cloud-Brain 業務管理アプリ）開発・運用】
+                    ・UI/UXとテストの再設計と改善を担当</p>
+              </td>
+              <td>
+                  <p>【言語、フレームワーク】
+                    　PHP, Laravel,NuxtJS
+                    【OS,Platform】
+                    　Mac,Docker
+                    【環境】
+                    　VS-code</p>
+              </td>
+              <td>
+                <p>2022年6月~2022年8月</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+                <p>【Androidアプリ（Cloud-Brain 業務管理アプリ）開発・運用】
+                  ・画面遷移からAPI進行までシステム設計、製作、バグ改修を担当</p>
+            </td>
+            <td>
+                <p>【言語】
+                  　JAVA
+                  【OS】
+                  　Mac
+                  【環境】
+                  　AndroidStudio</p>
+            </td>
+            <td>
+              <p>2022年1月~2022年5月</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+              <p>【Web アプリ（Meitoアルファベットチョコレートの日 キャンペーンアプリ）開発】
+                ・Phalcon PHP frameworkで開発
+                ・キャンペーン機能はWebアプリを利用
+                ・制定を記念してTwitter キャンペーンを1日限定で実施</p>
+          </td>
+          <td>
+              <p>【言語】
+                　PHP Phalcon,SQL
+                【OS,Platform】
+                　Mac,Docker
+                【環境】
+                　VS-code</p>
+          </td>
+          <td>
+            <p>2021年10月~2021年12月</p>
+        </td>
+      </tr>
+      </table>
+  </div>
+</section>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="スキルとツール" duration="5">
+        <h2>言語</h2>
+        <div class="category-container">
+            <div class="card">
+                <img src="https://camo.githubusercontent.com/05b8e95429a1a2ccf382c5a7e5998747bed2efc36021e6c12472dac6cbe7138e/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6b6f746c696e6c616e672f6b6f746c696e6c616e672d69636f6e2e737667" alt="Kotlin Icon">
+                <h3>Kotlin</h3>
+            </div>
+            <div class="card">
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java Icon">
+              <h3>Java</h3>
+          </div>
+            <div class="card">
+                <img src="https://camo.githubusercontent.com/ed1f17e5df73529a8d49749c0150014f940ff01d645e0c77103f11b3aad63b00/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f646172746c616e672f646172746c616e672d69636f6e2e737667" alt="Dart Icon">
+                <h3>Dart</h3>
+            </div>
+            <div class="card">
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript Icon">
+              <h3>JavaScript</h3>
+          </div>
+          <div class="card">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="PHP Icon">
+            <h3>PHP</h3>
+        </div>
+          <div class="card">
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML Icon">
+              <h3>HTML</h3>
+          </div>
+          <div class="card">
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="CSS Icon">
+              <h3>CSS</h3>
+          </div>
+          <div class="card">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python Icon">
+            <h3>PYTHON</h3>
+        </div>
+            <!-- Add more language cards as needed -->
+        </div>
+        <h2>テクノロジー/フレームワーク</h2>
+        <div class="category-container">
+            <div class="card">
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="Android Icon">
+                <h3>Android</h3>
+            </div>
+            <div class="card">
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apple/apple-original.svg" alt="iOS Icon">
+                <h3>iOS</h3>
+            </div>
+            <div class="card">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMwAAADACAMAAAB/Pny7AAABdFBMVEX///893IRChfQIMELW8P83v244cLIEFhkALkAbKDzO09U8gvPV4vwEFBUGJC84b60+e9IAAADi/f8yar4AJCMADBF3iIyJrtQtXJE5yHUy23870nzd8//4/frj+esl2noAJjtZx4otvWfu+/NAwXWo38/f+P8raK4qVYYre/Oq7cSf673T9eC078vA8tNl4ZmL57Dr8f7v8fIAFS/P7fQYulpAgeia2sXG6uprlsg7d8fa3uAAACEAABuBqfaUtfi/0vpS34995acA1m0943gjzY9BuLstk91rkYhC6opExaxBn9oRUEwoi2M5p8w2iuqosLUsnWozjuSsxfpLYGsztXRJzaRdk/UbaFEAIT0ACTlCef9+0qpCpNQZXlJBvrQhe1xuzZoOQkcymJkvmo0xfaQTQikkgE45qog2hqEpj1Uyi5wtoF4XVDcMMSUeb0KIusq91eEiKzCLo6qry+VAR0tVhL8AUqVTVGAsPk5tcnuTlpyX4cF8AAAIt0lEQVR4nO3ceVvbxhYGcCx5IVaoowSTWl5kbOxc4bUGA42BYCBJlyxug5MQaG+5TbqmixOSAv7yHcmbLGkkzWj1feb9m/D4l3PO6AzYzM2RkJCQkJCQkJCQkJCQkMxS0vlMdbVUWq1m8mmvX4vFpMulNj/IQbtUznv9eiwkXa5zPBcYhef3qzPLyawG+MBUOK5enslmy1dqCopUHdBsXr8y9FT3OU5tAcXha6sZr18cWsp1ZYfJe61WmaFey5e0OkzWa4H9qtev0WwqNe0Omxqd+kyMTnk/YESRmq1d9/3o5OttMxRpdNqrXr9a/VTahh0m4wRqPh6dTM28ZFidmk97LV/nES0ih6/7cMNJr/K6xzE0PL/qs6dOutw+wKJInEDVT5x8/QC9wybhDmoZv3DyFcwOk3PqvuDkqxY6bBIwOp4fbOD+hXGGaXPaVW85mRJ8O0YO5+lNVLx/2VSWISfg1U00XTW3UiLFo3W6bHqlRArYP0tuj06+hLJSInJq7u4ElZr9HSbjuLlOlx2lDDnujE667jRlwNl3odcqblAGcfommmnb95A0DFinHaSkrW3H6DloOzY6FQ6rLMlEIpRIJLE0YMVx4qmTLuv/ZA9KCY2Cx+EDFbsXNtzteEKxwGnbexPNV7C242QiNB28ZuP4ko3FyWCVRUXB5/D2/fgzv49VFg2K1Gs4HH7frtrgWDTLYmF0eJsWglX0O74eBavXuMP7e3ZYMuh1Sehb0DmHgQcPhc9swHyR+BKNYlAWdA53+NXXlCDsWrc01h49TiJwzFEkjsnveHj/yVOBoSgbStNZy9KPvuFMcsxTzBaH5x58ywAKwDyzjDnK0nR2/vvul2aeNCgUUxzu8PlDSqJQFPPCMubaPE2LnJfGo4NUlhFH9zsetr8TmKEFaKxaGgMMPX98/ENAn4NBEQMvDn/4gBHGFICxOjTRIQZwXmW/0SsL/OU2c8uhZhOVAzrs6QklD3PdNozIedRFL0vudD2VSgU3Qznol2j0GsclvzsRKOcwYHRefb+C2GFnW6mgmFTwdAX+VQklJfBfJcV2DE0fv/pB9f8I7bBcaLmQGlhEztaZSQ4XeP7tiZLiAIamwehMcaBnGKCADgtOkkoVzlbgzZYcU+4/EVRlcQYjjs7bhCEllFs53UrJLSJnfXMZPjvSU4fj7j94qkVxBiOOzstuwqjDzgrrCsqg1zaXc1BOEtyRv/pafhw7jwGjk33Z1bM0lze1KFKviRzYf0Hy+ZMN7bI4iAGc/z3uwnqsubKp6jAZJ1g41e61XPfHh7CyOIqhs8ePHr/V0uSap4UglDLknDVVnFzo9ZvwDSjFUQwoTuSnn0MqTnNZc1iUo1NYVuwEzV9+jd0J393wCPNJJL7402/TGrHD9MsyKs7W5kpT/u9+BxQQndI4i1mIxHcW/3g7OQZyudMtY8goW6fjc635OhaWLDEPMZFIPL74Ryg56jAEisQ5k4rT7L4ZlMVrjMT5OSENMOw4hjdbqgBWgtzr8JDiPQZw2D+7ydxKAZEicQqh7psxxQ8YkfNX4hTDEgwW/74js/gCE4mwFz0sTOr6Rx9iroo4FlCaz/2HiS/dxMPcvB0mGIIhGIIhGIIhGIIhGIIhGIIhGIIhGIIhGIIhGIKZEUzx/wrjw581s5iY4vlH/1WGvehh/RogdfuO/zAR9srMb5mVlNTUxPgGE2GPesi/0+xNDYyPMBGWXeohVAd85XlYYfEPJrLAvnvfg79pRmk5/6ikhD19U4MycfZDZ71o5h0aYodpWMKevd1EjRF77QpwjCjF89taZQnHPHzvjGak0dHlFLU7zKDLnMVol0YcnQ9LPXivFVPnyjNsnLs6Focx8xFtDSjOh37vpiZH7DDVGTa26DSZ0xi4JsLGL96vayw4xaD2sBgOjPMYev4TOOfdUSdVVFLOP4dIwrHwDX2L4xiRA9PE4++upnut2INSwNPSgOIGhoaeAxJnadJroMPgFL3ni6sYen4Bzll4X5Q4xaJ6dxlT9JYYtzFicaAc9l3nJgj8OAaDb4biHoamIzocdiH2zz86FPhbmacx9n0YyLDXIAuBGPZTS8Mywli0IGD0ODBMTHd9UWbDTYy0rWk2mzYmZvDEVxbmnlVMCwkDe4hqY+6ilIWiBKvzP/poI0JxtDiaGDSKHR/TlD50ispRHWwqjLi7mDzDRjmxXpi56DYqRoOjxMQQOwxEsKEwc3MXa+gacXQWoBhAQRl8KQxlxyfo51rbyI1GK08COQaHQjGWn/7DRLE0Uxz2P5jH8diyZ48FaC63EY+0EWdBiQH3LwyL8MKmuohp9dcwBocWH6ILcgzaA39cFuGeLfMyTvRoB6vXhuv0AGNu0VdR7CzLiHNhgSNiUFbKSQRmr2G7BaSTxRsd8NhhP8U5whzosEnS/WtZPM7iLcTH/ZDiQIdN0rqisTiLtzAoDLXnIEVM9AKHg44BFMsbv4l0AMdxjEA52mGTNPoXWUQOIoahXlj/GzNmE126XEPqNSQMw7xw7Ayzg4OAAUfYPXc6TJbOVfbYAYzA7O65TQFpdI7WzI6OWQzosGeudtgkrY7ZXjOJEahnrneYjNO/ZmqdNoVhhN3rjuxhZtOIXpm5upnBgN3Fow6Tcy53DHvNGCMIXg3LdBqdbaOf4BhiTnZ9QRHTWGL1e80AI2x4OPfqNI50OboYwYa/j2dzWh90rm46GMaOv8JofzqX0P0TigFPSV912CSNPowDwTDMhu86bJLW1aXm1U0TAyjubsfIiWperLUwArXr0w6bpAHWaVWvqTGMN9sxcsBNVLniqDCCZ9sxcqJ9xU+nFRiBcv/+ZSGAI78dTGHAk2XP69eHmOjS2rEWBlyL92alwyYBJ8F4dCYYb+9fFtLojEZnhBHvX16/Kuy0+lmpOgPMbHaYLK3O5c7ONntLANn1/ippOY1op3/73t7s9hcJCQkJCQkJCQkJCQkJSv4F1AfaZMdxKaAAAAAASUVORK5CYII=" alt="Flutter Icon">
+                <h3>Jetpack Compose</h3>
+            </div>
+            <div class="card">
+              <img src="https://kotlinlang.org/assets/images/favicon.svg?v2" alt="KMP Icon">
+              <h3>KMP</h3>
+          </div>
+            <div class="card">
+                <img src="https://camo.githubusercontent.com/a682e207ce9939518c8617c6340b1bf8b1769b30a9f1b45d27d67fd64af1d0f2/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f666c7574746572696f2f666c7574746572696f2d69636f6e2e737667" alt="Flutter Icon">
+                <h3>Flutter</h3>
+            </div>
+            <div class="card">
+              <img src="data:image/svg+xml,%3Csvg height='60' viewBox='0 0 60 60' width='60' xmlns='http://www.w3.org/2000/svg'%3E%3ClinearGradient id='ktor_svg__a' gradientTransform='matrix(1 0 0 -1 0 -292.88)' gradientUnits='userSpaceOnUse' x1='9.588' x2='29.862' y1='-302.468' y2='-322.742'%3E%3Cstop offset='.296' stop-color='%2300afff'/%3E%3Cstop offset='.694' stop-color='%235282ff'/%3E%3Cstop offset='1' stop-color='%23945dff'/%3E%3C/linearGradient%3E%3ClinearGradient id='ktor_svg__b' gradientTransform='matrix(1 0 0 -1 0 -292.88)' gradientUnits='userSpaceOnUse' x1='30.419' x2='49.587' y1='-323.355' y2='-342.524'%3E%3Cstop offset='.107' stop-color='%23c757bc'/%3E%3Cstop offset='.173' stop-color='%23cd5ca9'/%3E%3Cstop offset='.492' stop-color='%23e8744f'/%3E%3Cstop offset='.716' stop-color='%23f88316'/%3E%3Cstop offset='.823' stop-color='%23ff8900'/%3E%3C/linearGradient%3E%3Cpath d='m40.008 20.004-9.961-9.961-10.043-10.043-10.562 10.563-9.442 9.441 20.004 20.004z' fill='url(%23ktor_svg__a)'/%3E%3Cpath d='m19.935 39.996 9.959 9.959 10.045 10.045 10.561-10.563 9.443-9.441-20.004-20.004z' fill='url(%23ktor_svg__b)'/%3E%3Cpath d='m20.06702 20.02234h19.90455v20.12795h-19.90455z'/%3E%3C/svg%3E" alt="Flutter Icon">
+              <h3>KTOR</h3>
+          </div>
+            <!-- Add more framework cards as needed -->
+        </div>
+        <h2>データベース</h2>
+        <div class="category-container">
+            <div class="card">
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="SQL Icon">
+                <h3>SQL</h3>
+            </div>
+            <div class="card">
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB Icon">
+                <h3>MongoDB</h3>
+            </div>
+            <div class="card">
+                <img src="https://camo.githubusercontent.com/3e5344a2965e786497ceb575ad67d2c64d412bb9683da05791edf424a0e40734/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f66697265626173652f66697265626173652d69636f6e2e737667" alt="Firebase Icon">
+                <h3>Firebase</h3>
+            </div>
+            <div class="card">
+              <img src="https://www.postgresql.org/media/img/about/press/elephant.png" alt="postgresSQL Icon">
+              <h3>PostgreSQL</h3>
+          </div>
+            <!-- Add more database cards as needed -->
+        </div>
+        <h2>ツール</h2>
+        <div class="category-container">
+            <div class="card">
+                <img src="https://git-scm.com/images/logos/logomark-orange@2x.png" alt="Git Icon">
+                <h3>Git</h3>
+            </div>
+            <div class="card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/400px-GitHub_Invertocat_Logo.svg.png" alt="GitHub Icon">
+                <h3>GitHub</h3>
+            </div>
+            <div class="card">
+                <img src="https://avatars.githubusercontent.com/u/44036562?s=200&v=4" alt="GitHub Actions Icon">
+                <h3>GitHub Actions</h3>
+            </div>
+            <div class="card">
+                <img src="https://camo.githubusercontent.com/3e5344a2965e786497ceb575ad67d2c64d412bb9683da05791edf424a0e40734/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f66697265626173652f66697265626173652d69636f6e2e737667" alt="Firebase Icon">
+                <h3>Firebase</h3>
+            </div>
+            <div class="card">
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS Icon">
+                <h3>AWS</h3>
+            </div>
+            <div class="card">
+              <img src="https://cdn1.iconfinder.com/data/icons/agile-methodology-22/64/testing-methodology-scrum-automation-acceptance-128.png" alt="Jenkins Icon">
+              <h3>Test Automation</h3>
+          </div>
+            <!-- Add more tool cards as needed -->
+        </div>
+        <h2>プロジェクト管理ツール</h2>
+        <div class="category-container">
+          <div class="card">
+            <img src="https://nulab.com/app/assets/img/common/backlog-favicon.svg" alt="Notion Icon">
+              <h3>Backlog</h3>
+          </div>
+            <div class="card">
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jira/jira-original-wordmark.svg" alt="Jira Icon">
+                <h3>Jira</h3>
+            </div>
+            <div class="card">
+              <img src="https://assets-global.website-files.com/621c8d7ad9e04933c4e51ffb/65eba5ffa14998827c92cc01_slack-octothorpe.png" alt="Trello Icon">
+                <h3>Slack</h3>
+            </div>
+          </div>
+            <!-- Add more project management tool cards as needed -->
+        <h2>その他</h2>
+        <div class="category-container">
+            <div class="cardText">
+                <h4>テクニカルライティング</h4>
+            </div>
+            <div class="cardText">
+                <h4>チーム管理</h4>
+            </div>
+            <div class="cardText">
+                <h4>チームのリーダーシップ</h4>
+            </div>
+            <div class="cardText">
+                <h4>UI/UXデザイン</h4>
+            </div>
+            <!-- Add more other skill cards as needed -->
+        </div>
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="プロジェクトとライブラリー概要" duration="2">
+        <div style="display: flex; flex-direction: column; align-items: right;border-bottom: 1px solid #ccc; padding-bottom: 10px;">
+          <p style="font-weight: bold;">1. Cogoni Photobaseアプリケーション <a href="https://play.google.com/store/apps/details?id=jp.cognivision.cpbmobile&pli=1" target="_blank">PlayStore</a></p>
+          <div style="display: flex; flex-direction: row; align-items: center;">
+              <p>
+                アプリケーションはMVVMアーキテクチャ、Jetpackライブラリをベースにしています。新しいCogoni Photobaseは、事故車の画像、見積もり、メッセージなどを送信できるファイル共有/通信サービスです。
+                <br/>
+                <br/>
+                <b>使用したライブラリやツール：</b>MVVMアーキテクチャ、Jetpackライブラリ、Room、 CameraX、Retrofit、MlKit、Firebase、Arsceneview(AR)、zxing(QR Code)
+                <br/>
+                <br/>
+                <b>チームメンバー：</b>15人</p>
+              <img style="max-width: 330.22px; height: 450px; margin-left: 20px;" src="img/cogoni.png">
+          </div>
+      </div>
+      
+
+      <div style="display: flex; flex-direction: column; align-items: right;border-bottom: 1px solid #ccc; padding-bottom: 10px;">
+        <p style="font-weight: bold;">2. Cloud Brain 業務管理アプリケーション <a href="https://play.google.com/store/apps/details?id=jp.cloudbrains.ireport.prod" target="_blank">PlayStore</a></p>
+        <div style="display: flex; flex-direction: row; align-items: center;">
+            <p>
+              シンプルでスマートな日報管理。一目で業務内容や作業管理が理解できます！
+              <br/>
+              <br/>
+              <b>使用したライブラリやツール：</b>MVVMアーキテクチャ、XML、Room、Retrofit、MlKit、Firebase<br/>
+              <b>チームメンバー：</b>8人</p>
+            <img style="width:350px;  height: 450px; margin-left: 20px;" src="img/cloudbrain.png">
+        </div>
+    </div>
+
+    <div style="display: flex; flex-direction: column; align-items: right;border-bottom: 1px solid #ccc; padding-bottom: 10px;">
+      <p style="font-weight: bold;">3. Japani 日本語学習アプリ <a href="https://play.google.com/store/apps/details?id=com.hridoy.language.japani" target="_blank">PlayStore</a></p>
+      <div style="display: flex; flex-direction: row; align-items: center;">
+          <p>
+            日本語学習アプリ。 レベルN5～N3
+            <br/>
+            <br/>
+            <b>使用したライブラリやツール：</b>XML、SQL、PDF、Web Viewなど　　　　　　　　　　<br/>
+            <b>チームメンバー：</b>8人</p>
+          <img style="width:300px;  height: 450px; margin-left: 20px;" src="img/japani.png">
+      </div>
+  </div>
+
+  <div style="display: flex; flex-direction: column; align-items: right; border-bottom: 1px solid #ccc; padding-bottom: 10px;">
+    <p style="font-weight: bold;">4. BaseTemplateAndroidApp (Android テンプレート) <a href="https://github.com/ihridoydas/BaseTemplateAndroidApp" target="_blank">Github Repo URl</a></p>
+    <div style="display: flex; flex-direction: row; align-items: center;">
+        <p>
+          このリポジトリは、必須の開発者ツールを備えたテンプレートとして機能し、自信を持って効率的に開始するためのシームレスなセットアッププロセスを保証します。
+          <br/>
+          <br/>
+          <b>使用した依存関係ライブラリやツール：</b>MVVM、Jetpack Compose、Ktor、Ktlint、Detekt、Git Hooks、GitHub Actions、LeakCanary、Hilt、Room、Paparazzi、Dokka、Spotless、sortDependencies etc<br/>
+    </div>
+</div>
+
+
+
+<div style="display: flex; flex-direction: column; align-items: right;">
+  <p style="font-weight: bold;">その他 Android、IOS、Flutterのプロジェクトなど。。</p>
+  <table>
+    <tr>
+      <th>プロジェクト</th>
+      <th>プロジェクト内容</th>
+      <th>使用したライブラリ/ツール</th>
+    </tr>
+    <tr style="text-align: center;">
+      <td style="vertical-align: middle;">
+        1: <a href="https://github.com/ihridoydas/ScreenGrab" target="_blank">ScreenGrab</a>
+      </td>
+      <td>
+        Jetpack Compose ユーティリティ ライブラリは、コンポーザブル コンテンツをビットマップ イメージに変換し、そのイメージをローカル ストレージに保存します。
+      </td>
+      <td style="vertical-align: middle;">
+        Jetpack Compose、Spotless、Dokka、Material3、Compose UI Graphics
+      </td>
+    </tr>
+    <tr style="text-align: center;">
+      <td style="vertical-align: middle;">
+        2: <a href="https://github.com/ihridoydas/ScratchCard_iOS" target="_blank">ScratchCardIOS</a>
+      </td>
+      <td style="vertical-align: middle;">
+        SwiftUIでスクラッチビューを作成する。
+      </td>
+      <td style="vertical-align: middle;">
+        SwiftUI、Mask、Canvas
+      </td>
+    </tr>
+    <tr style="text-align: center;">
+      <td style="vertical-align: middle;">
+        3: <a href="https://github.com/ihridoydas/ChatGemini" target="_blank">ChatGemini</a>
+      </td>
+      <td>
+        Android アプリ アーキテクチャ (MVVM) を使用したプロジェクトのデモ (Gemini を使用した AI チャット ボット)。
+      </td>
+      <td style="vertical-align: middle;">
+        Jetpack Compose、Gemini API、Spotless、Dokka、Material3、Compose UI Graphics
+      </td>
+    </tr>
+    <tr style="text-align: center;">
+      <td style="vertical-align: middle;">
+        4: <a href="https://github.com/ihridoydas/Life-Canvas" target="_blank">Life-Canvas</a>
+      </td>
+      <td style="vertical-align: middle;">
+        ToDoアプリ
+      </td>
+      <td style="vertical-align: middle;">
+        Jetpack Compose、Ktor、Hilt、Postgres、Spotless、Dokka、Material3など
+      </td>
+    </tr>
+  </table>
+</div>
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Articles" duration="2">
+        <table style="width:100%; border-collapse: collapse;">
+          <tr>
+            <th style="padding: 10px; text-align: left; border-bottom: 2px solid #000;">Title</th>
+            <th style="padding: 10px; border-bottom: 2px solid #000;">Link</th>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border-bottom: 1px solid #ddd;text-align: left;">Chat-GEMINI: Google Gemini AI を使用した Android チャット アプリの構築</td>
+            <td style="padding: 10px; border-bottom: 1px solid #ddd;"><a href="https://qiita.com/ihridoydas/items/daf28d0214261c993f63">Qiita Link</a></td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border-bottom: 1px solid #ddd;text-align: left;">BaseTemplateAndroidAppで強力なAndroidアプリを作成する</td>
+            <td style="padding: 10px; border-bottom: 1px solid #ddd;text-align: center"><a href="https://qiita.com/ihridoydas/items/704fd3fd484c9867d5d8">Qiita Link</a></td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border-bottom: 1px solid #ddd;text-align: left;">【SwiftUI】iOS 用のスクラッチ カード UI の実装</td>
+            <td style="padding: 10px; border-bottom: 1px solid #ddd;text-align: center"><a href="https://qiita.com/ihridoydas/items/83380361c60d2fee8cf6">Qiita Link</a></td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border-bottom: 1px solid #ddd;text-align: left;">【Android】Jetpack Compose でスクラッチビューを作成する</td>
+            <td style="padding: 10px; border-bottom: 1px solid #ddd;text-align: center"><a href="https://qiita.com/ihridoydas/items/8db6e5023fbfa2031274">Qiita Link</a></td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border-bottom: 1px solid #ddd;text-align: left;">Jetpack Compose: シンプルな方法での MVVM 状態管理</td>
+            <td style="padding: 10px; border-bottom: 1px solid #ddd;text-align: center"><a href="https://qiita.com/ihridoydas/items/5abbe81322a0a24fcb01">Qiita Link</a></td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border-bottom: 1px solid #ddd;text-align: left;">アプリのアイコンを希望に合わせて変更できる</td>
+            <td style="padding: 10px; border-bottom: 1px solid #ddd;text-align: center"><a href="https://qiita.com/ihridoydas/items/76a30c190eef806ab0e2">Qiita Link</a></td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border-bottom: 1px solid #ddd;text-align: left;">Android Jetpack は複数の言語をサポート</td>
+            <td style="padding: 10px; border-bottom: 1px solid #ddd;text-align: center"><a href="https://qiita.com/ihridoydas/items/68608041202315cb7268">Qiita Link</a></td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border-bottom: 1px solid #ddd;text-align: left;">Jetpack Composeでナビゲーションアニメーションの作成</td>
+            <td style="padding: 10px; border-bottom: 1px solid #ddd;text-align: center"><a href="https://qiita.com/ihridoydas/items/e97bb646e9affaf27e23">Qiita Link</a></td>
+          </tr>
+          <!-- Add more rows as needed -->
+          <tr>
+            <td style="padding: 10px; border-bottom: 1px solid #ddd;text-align: left;">Building a Chat App for Android Using Google Gemini AI Model</td>
+            <td style="padding: 10px; border-bottom: 1px solid #ddd;"><a href="https://medium.com/@ihridoydas/building-a-chat-app-for-android-using-google-gemini-ai-model-e85de9eba5c2">Medium Link</a></td>
+          </tr>
+          <tr>
+            <td style="padding: 10px; border-bottom: 1px solid #ddd;text-align: left;">Create powerful Android apps with BaseTemplateAndroidApp</td>
+            <td style="padding: 10px; border-bottom: 1px solid #ddd;"><a href="https://medium.com/@ihridoydas/create-powerful-android-apps-with-basetemplateandroidapp-5d88d488a2dc">Medium Link</a></td>
+          </tr>
+        </table>
+        
+
+      </google-codelab-step>
+    
+  
+      <google-codelab-step label="ありがとう" duration="0">
+        <div style="margin: 0; height: 30vh; display: flex; justify-content: center; align-items: center; background-color: #f0f0f0;">
+          <div style="font-size: 36px; font-weight: bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); padding: 20px; background-color: #fff; border-radius: 10px;">ありがとうございました。</div>
+        </div>
+      </google-codelab-step>
+    
+  </google-codelab>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-49880327-14', 'auto');
+
+    (function() {
+      var gaCodelab = '';
+      if (gaCodelab) {
+        ga('create', gaCodelab, 'auto', {name: 'codelab'});
+      }
+
+      var gaView;
+      var parts = location.search.substring(1).split('&');
+      for (var i = 0; i < parts.length; i++) {
+        var param = parts[i].split('=');
+        if (param[0] === 'viewga') {
+          gaView = param[1];
+          break;
+        }
+      }
+      if (gaView && gaView !== gaCodelab) {
+        ga('create', gaView, 'auto', {name: 'view'});
+      }
+    })();
+  </script>
+
+</body>
+</html>

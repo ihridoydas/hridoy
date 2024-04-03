@@ -34,7 +34,7 @@ local.properties
 proguard/
 
 # Log Files
-*.log
+# *.log
 
 # Android Studio Navigation editor temp files
 .navigation/
@@ -148,19 +148,19 @@ sketch
 .ionide
 
 ### Web ###
-*.asp
-*.cer
-*.csr
-*.css
-*.htm
-*.html
-*.js
-*.jsp
-*.php
-*.rss
-*.wasm
-*.wat
-*.xhtml
+# *.asp
+# *.cer
+# *.csr
+# *.css
+# *.htm
+# *.html
+# *.js
+# *.jsp
+# *.php
+# *.rss
+# *.wasm
+# *.wat
+# *.xhtml
 
 ### WordPress ###
 # Core

@@ -37,6 +37,7 @@ https://qiita.com/ihridoydas/items/68608041202315cb7268
 Jetpack Composeでナビゲーションアニメーションの作成
 ```
 https://qiita.com/ihridoydas/items/e97bb646e9affaf27e23
+
 ```
 
 

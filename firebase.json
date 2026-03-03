@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "/Users/user/development/hridoy",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
